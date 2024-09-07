@@ -7,23 +7,14 @@
 </head>
 <body>
 <style>
-
-html,body{
+body {
+background: #002224;
 margin: 0;
 overflow-x: hidden;
-height: 100%;
-width: 100%;
-}
-body {
-background: radial-gradient(#4c6868, #11191d);
-background-position: center	;
-background-size: 400%;
-}
-.wrap{
 display: flex;
 align-items: center;
 justify-content: center;
-align-content: center; 
+align-content: center;
 }
 tspan {
 white-space: pre;
@@ -188,10 +179,6 @@ animation: animate-svg-fill-13 2s cubic-bezier(0.47, 0, 0.745, 0.715) 2s both;
 }
 .asas{width: ;}
 </style>
-<body>
-<div class="wrap">
-
-
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="800 50" width="800" height="450" class="asas">
 <g id="Background">
 <path id="Path 0" class="shp0 svg-elem-1" d="M 0 225 L 0 450 L 800 450 L 800 0 L 0 0 L 0 225 Z"></path>
@@ -209,6 +196,5 @@ animation: animate-svg-fill-13 2s cubic-bezier(0.47, 0, 0.745, 0.715) 2s both;
 <path id="Path 12" class="shp2 svg-elem-13" d="M 486.9 244.4 C 486.1 246.1 484.6 247.7 483.5 247.9 C 482.4 248.1 481.3 248.7 481 249.2 C 480.7 249.7 478.1 250.4 475.2 250.8 C 472.3 251.2 470 251.7 470 252 C 470 252.3 470.9 253.1 472 253.8 C 473.6 254.8 474.9 254.8 478.6 253.8 C 481.7 252.9 484 251.5 485.4 249.5 C 486.7 247.8 488.2 245.5 488.8 244.3 C 489.5 243 489.6 241.8 489.2 241.6 C 488.7 241.4 487.7 242.6 486.9 244.4 Z M 367.5 245.5 C 367.5 246.9 368.2 248.5 369 249 C 369.8 249.5 370.8 249.7 371.3 249.4 C 371.7 249.2 372 249.4 372 250 C 372 250.6 373.2 250.7 374.8 250.4 C 376.3 250 377.8 249.6 378.3 249.4 C 378.7 249.2 378.4 248.3 377.8 247.4 C 377.1 246.6 376.1 246.1 375.5 246.4 C 374.9 246.6 373.8 246 373 244.9 C 372.2 243.8 370.6 243 369.5 243 C 368 243 367.5 243.7 367.5 245.5 Z M 434.5 245.6 C 434.2 246.3 434.2 247.3 434.4 247.8 C 434.6 248.2 435.7 248.8 436.9 249.3 C 438.2 249.7 439.4 249.5 440 248.8 C 440.7 247.9 440.6 247.2 439.8 246.4 C 439.1 245.8 437.7 245 436.8 244.7 C 435.7 244.4 434.8 244.7 434.5 245.6 Z"></path>
 </g>
 </svg>
-</div>
 </body>
 </html>
